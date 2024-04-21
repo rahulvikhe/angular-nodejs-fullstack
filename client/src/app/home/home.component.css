@@ -1,0 +1,36 @@
+/* Style for the heading */
+h1 {
+    text-align: center;
+    color: #333; /* You can adjust the color as per your preference */
+}
+
+/* Style for the table */
+table {
+    width: 600px;
+    margin: 20px auto; /* Centers the table horizontally */
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+/* Style for table headings */
+th {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style for table cells */
+td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Lighter gray for even rows */
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #e2e2e2; /* Light gray on hover */
+}
