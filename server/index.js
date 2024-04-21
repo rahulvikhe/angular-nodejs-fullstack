@@ -11,11 +11,11 @@ var connection = mysql.createConnection({
   database: 'angular-node-db'
 });
 
-// Checking the type of the express module
-console.log(typeof express);
-
 // Creating an Express application
 var app = express();
+
+// Use the CORS middleware
+app.use(cors());
 
 // Handling GET request for fetching users
 app.get("/users", (req, res) => {
@@ -32,8 +32,7 @@ app.get("/users", (req, res) => {
     });
 });
 
-
-// Listening on port 9000 for incoming requests
+// Listening on port 8500 for incoming requests
 app.listen(8500, () => {
     console.log("Server is running on port 8500");
 });
