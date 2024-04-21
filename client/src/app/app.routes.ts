@@ -8,12 +8,12 @@ export const routes: Routes = [
         path:"", component:HomeComponent
     },
     {
-        path:"aboutus",
+        path:"about",
         component:AboutComponent
     },
     
     {
-        path:"contactus",
+        path:"contact",
         component:ContactComponent
     }
 ];
