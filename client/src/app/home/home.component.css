@@ -1,13 +1,13 @@
-/* Style for the heading */
-h1 {
-    text-align: center;
-    color: #333; /* You can adjust the color as per your preference */
+/* Style for the table container */
+.table-container {
+    width: 50%; /* Set width to half of the container */
+    margin: 20px auto; /* Center the container horizontally */
+    text-align: center; /* Center align content */
 }
 
 /* Style for the table */
-table {
-    width: 600px;
-    margin: 20px auto; /* Centers the table horizontally */
+.custom-table {
+    width: 100%; /* Occupy full width of the container */
     border-collapse: collapse;
     border: 1px solid #ccc;
 }
@@ -33,4 +33,10 @@ tr:nth-child(even) {
 /* Hover effect */
 tr:hover {
     background-color: #e2e2e2; /* Light gray on hover */
+}
+
+/* Style for the heading */
+h1 {
+    color: #333; /* Dark gray */
+    margin-top: 20px; /* Add space on top */
 }

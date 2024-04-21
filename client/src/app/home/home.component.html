@@ -1,16 +1,15 @@
-<h1>
-    Data from Node & MySQL
-</h1>
-<table width="600" border="1" align="center">
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Age</th>
-    </tr>
-    <tr *ngFor="let record of record">
-        <td>{{record.id}}</td>
-        <td>{{record.name}}</td>
-        <td>{{record.age}}</td>
-    </tr>
-
-</table>
+<div class="table-container">
+    <h1>Data from Node & MySQL</h1>
+    <table class="custom-table">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr *ngFor="let record of record">
+            <td>{{record.id}}</td>
+            <td>{{record.name}}</td>
+            <td>{{record.age}}</td>
+        </tr>
+    </table>
+</div>
