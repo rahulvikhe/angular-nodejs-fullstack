@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '', 
-  database: 'angular-node-db'
+  database: 'angular-nodejs-db'
 });
 
 // Creating an Express application
